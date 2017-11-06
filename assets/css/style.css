@@ -1,0 +1,259 @@
+body {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png);
+}
+header {
+	display: block;
+	background: #ffffff;
+	color: black;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'Serif';
+	position: relative;
+	top: 0;
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid lightgrey;
+
+}
+.name {
+	color: white;
+	background: rgb(36, 130, 117);
+	padding: 10px;
+	margin: 0 0 0 8%;
+	float: left;
+	line-height: 200%
+}
+
+
+.p1 {
+    border: none;
+    color: lightgrey; 
+    background-color:  lightgrey; 
+    height: 3px; 
+    margin:1% 5% 4% 5%;
+}
+.abm {
+	color: rgb(36, 130, 117);
+	padding-left: 5%
+}
+nav { 
+	float: right;
+	margin: 1.8% 24.5% 0 0%;
+	color: lightgrey;
+	/*'Arial', 'Helvetica Neue', Helvetica, sans-serif; choose one of*/ 
+}
+
+.a2 {
+	padding-left: 4%;
+}
+
+.pic1 {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+	width:200px;
+	height:200px;
+}
+.pf {
+	position: relative;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+}
+.pf2 {
+	position: relative;
+	float: right;
+	padding-right: 5%;
+	padding-bottom: 3%;
+}
+
+.content1 {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.conme {
+	color: rgb(36, 130, 117);
+	text-align: center;
+	
+}
+section{
+		float: left;
+		margin-top: 3%;
+  		margin-left: 15px;
+  		margin-right: auto;
+  		width: 650px;
+  		border: 1px solid #dddddd;
+  		background-color: #ffffff;
+  		line-height: 180%;
+  		
+  	}
+
+.txt {
+	width: 100%;
+	line-height: 180%;
+}
+.textarea {
+	width: 101.1%;
+	height: 80px;
+    box-sizing: border-box;
+    resize: none;
+    padding: 0 0 53px 0;
+    /*line-height: 1em*/
+
+}
+.sbtbutton {
+	background: rgb(36, 130, 117);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px
+
+}
+article 	{
+		float: center;
+		padding: 0 5% 2% 5%;
+		font-family: 'Georgia', 'Times', 'Times New Roman', 'Serif';
+		color: #777777;
+	}
+.sidebar 	{
+  		float: left;
+  		margin-top: 3%;
+  		margin-left: 15px;
+  		margin-right: auto;
+  		width: 270px;
+  		border: 1px solid #dddddd;
+  		background-color: #ffffff;
+
+	}
+.p2 {
+	border: none; 
+    color: #777777; 
+    background-color: lightgrey;
+    height: 1px; 
+    margin: 2% 12% 8% 15%;
+}
+
+.relative {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+
+} 
+
+.absolute {
+    position: absolute;
+    top: 70%;
+    bottom: 7%;
+    width: 100%;
+    color: white;
+    background: rgb(36, 130, 117);
+    line-height: 200%;
+    margin-left: 0;
+    text-align: center;
+}
+
+.links {
+	margin-left: 13%;
+	margin-top: 0;
+	margin-bottom: 8%
+}
+
+footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		float: center;
+		padding: 2px 0 2px 0;
+		text-align: center;
+		background-color: #666666;
+		border: 8px solid rgb(36, 130, 117);
+		border-right: 8px;
+		border-bottom: 8px;
+		border-left: 8px;
+
+	}
+.foot {
+	color: lightgrey;
+}
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+  
+  #container {
+  	width:100%;
+  }
+
+  /* The wrapper's width will be 600px */
+  #mainbar {
+    width: 600px;
+    overflow:hidden;
+    margin: auto;
+
+  }
+  #side {
+  	/*display:none;*/
+    width: 600px;
+    overflow:hidden;
+    margin: auto;
+    padding-bottom: 80px
+  }
+  .name {
+  	width: 100%;
+  	margin: 0 0 0 0;
+  	text-align: center;
+  	
+  }
+  .navbar {
+		width: 100%;
+		margin: 1% 0 1% 0;
+  		text-align: center;
+
+  }
+  .footer {
+  display: none;
+  }
+  .p1 {
+  	width: 80%;
+  }
+  .txt
+  {
+  	width: 88%;
+  }
+  .textarea {
+  	width: 89%;
+  }
+  .pic1 {
+  	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+	width:500px;
+	height:500px;
+  }
+  .textabout {
+  	float: left;
+	padding: 0 15% 2% 5%;
+	text-align: left
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'Serif';
+	color: #777777;
+  }
+  .foot {
+  	color: #666666;
+  }
+  #photo {
+	width:500px;
+	height:500px;
+
+  }
+}

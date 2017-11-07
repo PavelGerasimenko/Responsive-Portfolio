@@ -77,8 +77,8 @@ nav {
 	padding-right: 5%;
 }
 .conme {
-	color: rgb(36, 130, 117);
-	text-align: center;
+    color: rgb(36, 130, 117);
+    padding-left: 5%;
 	
 }
 section{
@@ -86,6 +86,7 @@ section{
 		margin-top: 3%;
   		margin-left: 15px;
   		margin-right: auto;
+      margin-bottom: 80px;
   		width: 650px;
   		border: 1px solid #dddddd;
   		background-color: #ffffff;
@@ -132,20 +133,22 @@ article 	{
   		width: 270px;
   		border: 1px solid #dddddd;
   		background-color: #ffffff;
-
 	}
 .p2 {
-	border: none; 
-    color: #777777; 
+    border: none;
+    color: #777777;
     background-color: lightgrey;
-    height: 1px; 
-    margin: 2% 12% 8% 15%;
+    height: 1px;
+    margin: 2% 12% 5% 5%;
+}
+.Portfolio {
+   width: 200px;
+    height: 200px;
 }
 
 .relative {
     position: relative;
-    width: 200px;
-    height: 200px;
+   
     float: left;
     margin-left: 5%;
 
@@ -164,9 +167,9 @@ article 	{
 }
 
 .links {
-	margin-left: 13%;
-	margin-top: 0;
-	margin-bottom: 8%
+    margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 footer {
@@ -183,7 +186,7 @@ footer {
 		border-left: 8px;
 
 	}
-.foot {
+.foot111 {
 	color: lightgrey;
 }
 
@@ -201,12 +204,13 @@ footer {
     margin: auto;
 
   }
-  #side {
-  	/*display:none;*/
-    width: 600px;
-    overflow:hidden;
-    margin: auto;
-    padding-bottom: 80px
+  .sidebar {
+  	width: 585px;
+    height: 170px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 28px;
   }
   .name {
   	width: 100%;
@@ -217,21 +221,28 @@ footer {
   .navbar {
 		width: 100%;
 		margin: 1% 0 1% 0;
-  		text-align: center;
+  	text-align: center;
 
   }
   .footer {
-  display: none;
+    border-bottom: 15px solid white;
   }
   .p1 {
-  	width: 80%;
+  	width: 77%;
   }
+  .p2 {
+    border: none;
+    color: #777777;
+    background-color: lightgrey;
+    height: 1px;
+    margin: 2% 9% 5% 5%;
+}
   .txt
   {
-  	width: 88%;
+  	width: 85%;
   }
   .textarea {
-  	width: 89%;
+  	width: 86%;
   }
   .pic1 {
   	float: left;
@@ -249,11 +260,41 @@ footer {
 	color: #777777;
   }
   .foot {
-  	color: #666666;
+  	color: lightgrey;
   }
-  #photo {
+  .footerport {
+    height: 20px;
+  }
+  #footport {
+    color: #666666;
+
+  }
+  .photo {
 	width:500px;
 	height:500px;
-
+  }
+  #portmedia {
+    
+  }
+  .Portfolio {
+   width: 500px;
+    height: 500px;
+}
+  .relative {
+    position: relative;
+    float: left;
+    margin-left: 5%;  
+  }
+  .absolute {
+    position: absolute;
+    top: 70%;
+    bottom: 7%;
+    width: 100%;
+    color: white;
+    background: rgb(36, 130, 117);
+    line-height: 320%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 36px;
   }
 }
